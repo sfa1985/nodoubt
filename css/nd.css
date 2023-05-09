@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(21, 21, 64);
+}
+
+/* landing page css */
+#round
+{
+    border-radius: 100px;
+    width: 100%;
+    border: 2px solid #da349d;
+    margin: 0 auto;
+}
+
+a:hover #round {
+    border: 2px solid #ffffff;
+    opacity: 50%;
+
+
+}
+
+
+#logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+   
+
+
+}
+
+.landing {
+
+    max-width: 500px;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rajdhani', sans-serif;
+    color:white;
+    text-align:center;
+
+
+}
+
+.landing a {
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+
+.landing a:hover {
+    color:#da349d;
+    text-decoration: underline;
+
+} 
+/*end landing page css*/
+
+/*main site css*/
+
+/*header*/
+header img {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left:20px;
+}
+header .nav {
+    font-family: 'Rajdhani', sans-serif;
+    display: block;
+    width:100%;
+    background-color: #da349d;
+    color: #FFFFFF;
+    margin:0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: #da349d;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+.nav li a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center; /* center the text */
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav li a:hover {
+    background-color: #e9ac2a;
+    color:#da349d;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'Rajdhani', sans-serif;
+    color:white;
+    font-size: 12px;
+}
