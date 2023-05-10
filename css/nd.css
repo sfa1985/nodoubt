@@ -59,18 +59,21 @@ a:hover #round {
 /*main site css*/
 
 /*header*/
+
+header {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 header img {
-    text-align: center;
     padding-top: 50px;
     padding-bottom:50px;
     padding-left:20px;
 }
 header .nav {
     font-family: 'Rajdhani', sans-serif;
-    display: block;
     width:100%;
     background-color: #da349d;
-    color: #FFFFFF;
     margin:0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -78,16 +81,12 @@ header .nav {
 }
 
 ul.nav {
-    list-style-type: none;
-    margin: 0 auto;
-    background-color: #da349d;
+
     text-align: center;
-    display: inline-block;
 }
 
 .nav li {
     display: inline-block;
-    text-align: center;
     padding-right:20px;
     padding-left: 20px;
 }
@@ -95,7 +94,6 @@ ul.nav {
 .nav li a {
     display: inline-block;
     color: #FFFFFF;
-    text-align: center; /* center the text */
     text-decoration: none;
     padding: 5px 10px;
 }
@@ -106,8 +104,23 @@ ul.nav {
     font-weight: bold;
 }
 
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main div{
+    font-family: 'Rajdhani', sans-serif;
+    color:white;
+    margin: 50px auto;
+    display: block;
+}
+
 footer {
     font-family: 'Rajdhani', sans-serif;
     color:white;
     font-size: 12px;
+    margin: 10px auto 10px auto;
+    text-align: center;
 }
